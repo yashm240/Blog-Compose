@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+/*Footer CSS*/
+#Ghumakad:hover{
+  transform: scale(1.06);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+#Ghumakad{
+  transition: all .2s ease-in-out;
+}
+#Ghumakadinfo{
+  color: #FFFFFF;
+  text-align: center;
+}
+a.social {
+  margin:5px 10px;
+  transition: transform 250ms;
+  display: inline-block;
+  width:0px;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+  display: inline-block;
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: white;
+}
+
+
+/*Footer Css end*/
+
+
+.finalbody{
+  min-height: 90vh;
+}
+
+.carousel{
+  margin:auto;
+  height: auto;
+  width:80vw;
+}
+.Heading{
+  font-family: 'Combo', cursive;
+  text-align: center;
+  font-weight: 1000;
+  align-content: center;
+}
+.Heading:hover{
+  transform: scale(1.06);
+  transition: transform 250ms;
+  
+
+}
+.ghummakadbody{
+  font-family: 'Combo', cursive;
+  text-align: center;
+  font-weight: 1000;
+  font-size: large;
+}
+.navbaricon:hover{
+  transform: scale(1.06);
+  transition: transform 250ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
